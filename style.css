@@ -1,0 +1,179 @@
+
+
+/**************************************************** page 1 ***************************************************/
+
+#home_page
+{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("cover6.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sign
+{
+    font-family: 'Arizonia', cursive;
+    color: white;
+    text-shadow: 4px 4px 0px rgba(0,0,0,0.8);
+    margin-top: 27px;
+    margin-left: 46px; 
+}
+
+.links
+{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 10%;
+}
+
+.left_one
+{
+    margin-top: 20%;
+}
+
+.para 
+{
+    margin-top: 90%;
+    margin-left: 50%;
+}
+
+.boox
+{
+    margin-left: 50%;
+    color: tomato;
+    
+}
+
+/**************************************************** page 2 ***************************************************/
+
+#service_page
+{
+  height: 100vh;
+  background-image: url('back.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("black.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /**************************************************** page 3 ***************************************************/
+  
+  #contact_page
+  {
+      height: 100vh;
+      background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("contact.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+  .contact_margin
+  {
+      margin-top: 80%;
+  }
+
+  .icon {
+	position: absolute;
+	top: 250%;
+	left: 60%;
+}
+.icon a {
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	background-color: rgb(223, 219, 219);
+	border-radius: 25px;
+	margin: 20px;
+	box-shadow: 
+	-.5px -.5px 1px white;
+	text-align: center;
+	line-height: 50px;
+	font-size: 30px;
+	border:3px solid #eee;
+	color: #333;
+	transition: .3s;
+}
+
+.icon a:hover {
+	animation: border .6s alternate infinite linear;
+	background-color: #333;
+	color: #eee;
+}
+
+@keyframes border {
+	0% {
+		border:3px solid lightgreen;
+	}
+	50% {
+		border:3px solid salmon;
+	}
+	100% {
+		border:3px solid skyblue;
+	}
+}
+
+/**************************************************** page 3 ***************************************************/
+
+#more_page
+{
+  height: 80vh;
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.85)), url("ss.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.parallax2 
+  {
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+.more_head
+{
+    padding-top: 5%;
+}
+
+.co_margin
+{
+    margin-left: 20%;
+}
+
+.feature 
+{
+    margin-top: 10%;
+}
+
+.col-md-4
+{
+    margin-top: 10%;
+}
+
+
+
+
+  
